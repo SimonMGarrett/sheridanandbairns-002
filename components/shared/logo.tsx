@@ -1,6 +1,6 @@
 export function Logo() {
     return (
-      <a href="#" className="flex items-center gap-1 border-l-2 border-copper pl-2 font-sheridan">
+      <a href="#" className="flex items-center gap-1 border-l-2 border-copper pl-2 font-sheridan antialiased">
           <span className="text-lg font-semibold tracking-widest text-foreground uppercase font-sheridan">
           Sheridan
           </span>
