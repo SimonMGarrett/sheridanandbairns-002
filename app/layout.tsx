@@ -1,16 +1,16 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Outfit, Instrument_Serif, Bodoni_Moda, Geist_Mono } from 'next/font/google'
+import { DM_Sans, Outfit, Bodoni_Moda, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 const _outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
-const _instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400", variable: "--font-instrument-serif" });
+// const _instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400", variable: "--font-instrument-serif" });
 const _bodoniModa = Bodoni_Moda({ subsets: ["latin"], weight: "400", variable: "--font-bodoni-moda" });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'SHERIDAN + BAIRNS | Real-world Decisions from Messy Data',
+  title: 'SHERIDAN + BAIRNS | Real-world Decisions from MessyData',
   description: 'Data analytics, threat detection, and AI decision-making consultancy. PhD-level expertise across UK Government departments.',
   generator: 'v0.app',
   icons: {

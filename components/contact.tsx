@@ -20,7 +20,7 @@ export function Contact() {
             Get in Touch
           </p>
           <h2 className="text-3xl font-normal text-foreground font-serif sm:text-4xl lg:text-5xl text-balance leading-tight">
-            Ready to reveal the clarity in your data?
+            Ready to discover the clarity in your data?
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground font-sans lg:text-lg">
             We would welcome a conversation about the challenges you are working through and where data might be able to help.
