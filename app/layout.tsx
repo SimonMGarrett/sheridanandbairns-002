@@ -11,7 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'SHERIDAN + BAIRNS | Real-world Decisions from MessyData',
-  description: 'Data analytics, threat detection, and AI decision-making consultancy. PhD-level expertise across UK Government departments.',
+  description: 'Data analytics, information discovery, threat detection, and AI decision-making consultancy. PhD-level expertise serving industry and government at the highest levels.',
   generator: 'v0.app',
   icons: {
     icon: [

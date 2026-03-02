@@ -26,9 +26,7 @@ export function Hero() {
           </h1>
           <ul className="mt-4 pl-6 max-w-2xl text-base leading-relaxed text-muted-foreground font-sans lg:text-lg">
             <li className="list-disc">Transforming stores of office files into connected, accessible information.</li> 
-            <li className="list-disc">Wielding that information to support decisions across UK GOV.</li>
-            {/* <li className="list-disc">Deep Expertise: Machine Learning, Data Analytics, AI Governance.</li> 
-            <li className="list-disc">From Complexity to Clarity for Organisations Across UK GOV.</li> */}
+            <li className="list-disc">Wielding that information to support decisions at the highest levels.</li>
           </ul>
           <div className="mt-10 flex flex-wrap gap-4">
             <a

@@ -29,7 +29,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-32 bg-background">
+    <section id="services" className="py-32 bg-[#121211]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="max-w-2xl">
@@ -43,11 +43,11 @@ export function Services() {
         </div>
 
         {/* Service cards */}
-        <div className="mt-20 grid gap-px bg-border sm:grid-cols-2">
+        <div className="mt-20 grid gap-px bg-transparent sm:grid-cols-2">
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-background p-8 lg:p-12 group hover:bg-secondary transition-colors"
+              className="bg-background/5 p-8 lg:p-12 group hover:bg-black/15 transition-colors"
             >
               <service.icon
                 className="h-6 w-6 text-copper mb-6"

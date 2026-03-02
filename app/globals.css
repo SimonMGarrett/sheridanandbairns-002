@@ -22,7 +22,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.26 0.01 250);
-  --input: oklch(27.806% 0.01172 248.315);
+  /* --input: oklch(27.806% 0.01172 248.315); */
   --ring: oklch(0.75 0.1 190);
   --teal: oklch(0.75 0.1 190);
   /* --copper: oklch(63.526% 0.17737 334.138); */
@@ -69,7 +69,7 @@
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
-  --color-input: var(--input);
+  /* --color-input: var(--input); */
   --color-ring: var(--ring);
   --color-copper: var(--copper);
   --color-teal: var(--teal);
@@ -102,6 +102,6 @@
   }
 
   input, textarea {
-    @apply border-t border-gray-900/60;
+    @apply border-t border-black bg-black/20 mt-2;
   }
 }

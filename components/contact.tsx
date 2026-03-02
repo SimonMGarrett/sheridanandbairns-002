@@ -27,7 +27,7 @@ export function Contact() {
           </p>
 
           <form
-            className="mt-16 inline-block w-full rounded bg-border p-8 shadow-lg shadow-black/70 md:w-[390px]"
+            className="mt-16 inline-block w-full rounded bg-[#121211] p-8 shadow-lg shadow-black/70 md:w-[390px]"
             action="https://api.web3forms.com/submit"
             method="POST"
           >
